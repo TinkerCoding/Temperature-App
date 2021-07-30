@@ -4,7 +4,7 @@ const App = () => {
 	const [temperatureValue, setTemperatureValue] = useState(10);
 	const [temperatureColor, setTemperatureColor] = useState('cold');
 
-    wwwwconst increaseTemperature = () => {
+    const increaseTemperature = () => {
 		const newTemperature = temperatureValue + 1;
 		setTemperatureValue(newTemperature);
 
